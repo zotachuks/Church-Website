@@ -1,0 +1,550 @@
+body {
+  background-color: #cccccc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/*Top header*/
+.top-header {
+  width: 100%;
+  height: 30px;
+  background-color: #efcca2;
+}
+.top-header .envelope a i.fa-envelope-o {
+  font-weight: bold;
+}
+.top-header .social a i.fa-facebook-square {
+  color: #4459c2;
+}
+.top-header .social a i.fa-twitter-square {
+  color: #9fbded;
+}
+.top-header .social a i.fa-instagram {
+  color: #70655b;
+}
+.top-header .social a i.fa-youtube-square {
+  color: #d72b2b;
+}
+
+/* Nav Bar*/
+.navbar {
+  background-color: #3b2b3d;
+}
+.navbar a {
+  font-weight: bold;
+}
+
+/*Slider*/
+.cat-slider {
+  margin-top: -20px;
+  margin-left: -15px;
+}
+.cat-slider .carousel-caption {
+}
+.cat-slider .carousel-caption h4 {
+  color: #3a3ad3;
+  font-weight: bold;
+}
+.cat-slider .carousel-caption h4.this-text {
+  color: #3a3ad3;
+  font-weight: bold;
+}
+.cat-slider .carousel-caption h3 {
+  color: #d72b2b;
+  font-weight: bold;
+}
+
+/*Intro Bar*/
+.congrats {
+  height: 30%;
+  background-color: #d72b2b;
+
+  font: #fff;
+}
+.congrats p {
+  color: #fff;
+  padding-top: 10px;
+}
+.congrats span {
+  text-align: center;
+  background:  #efcca2;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/*Welcome message*/
+.welcome {
+  margin-left: 0;
+  background: #eee;
+}
+.welcome h4 {
+  color: #777;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.welcome hr {
+  margin-right: 75px;
+  margin-left: 15px;
+  border: 1px solid #777;
+}
+.welcome p {
+  margin-right: 75px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+/*payments*/
+.payments {
+  height: 70px;
+  background: #3b2b3d;
+}
+.payments .payment h4 {
+  color: #cccccc;
+}
+.payments .payment p {
+  color: #cccccc;
+}
+.payments .make-payment h4 {
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #3b2b3d;
+  background:  #cccccc;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 75%;
+  width: 75%;
+}
+
+/*Church units header*/
+.units-header {
+  height: 30px;
+  background: #efcca2;
+  margin-top: 10px;
+}
+.units-header h4 {
+   color: #111;
+   text-align:center;
+   margin-top: 5px;
+   padding-top: 0;
+}
+
+/*Church units*/
+section.units .mens-unit {
+  height: 170px;
+  width: 32.5%;
+  background: #fff;
+  margin: 0;
+  float: left;
+  border: 2px solid #d1d1d1;
+
+}
+section.units .mens-unit h4,
+section.units .mens-unit p {
+  color: #3b2b3d;
+  text-align: center;
+}
+section.units .mens-unit h4 {
+  padding-top: 50px;
+}
+section.units .womens-unit {
+  height: 170px;
+  width: 32.5%;
+  background: #fff;
+  margin: 0;
+  float: left;
+  border: 2px solid #d1d1d1;
+}
+section.units .womens-unit h4,
+section.units .womens-unit p {
+  color: #52c6c3;
+  text-align: center;
+}
+section.units .womens-unit h4 {
+  padding-top: 50px;
+}
+section.units .youths-unit {
+  height: 170px;
+  width: 32.5%;
+  background: #fff;
+  margin: 0;
+  float: left;
+  border: 2px solid #d1d1d1;
+}
+section.units .youths-unit h4,
+section.units .youths-unit p {
+  color: #c03640;
+  text-align: center;
+}
+section.units .youths-unit h4 {
+  padding-top: 50px;
+}
+
+/*Church units description*/
+section.units-description .mens-description {
+  height: 60px;
+  width: 32.5%;
+  background: #3b2b3d;
+  margin: 0 ;
+  float: left;
+  border: 2px solid #d1d1d1;
+}
+section.units-description .mens-description p {
+  color: #fff;
+  text-align: center;
+}
+section.units-description .womens-description {
+  height: 60px;
+  width: 32.5%;
+  background: #52c6c3;
+  margin: 0;
+  float: left;
+  border: 2px solid #d1d1d1;
+}
+section.units-description .womens-description p {
+  color: #fff;
+  text-align: center;
+}
+section.units-description .youths-description {
+  height: 60px;
+  width: 32.5%;
+  background: #c03640;
+  margin: 0;
+  float: left;
+  border: 2px solid #d1d1d1;
+}
+section.units-description .youths-description p {
+  color: #fff;
+  text-align: center;
+}
+
+/*Events header*/
+.events {
+  height: 30px;
+  background: #efcca2;
+  margin-top: 10px;
+}
+.events h4 {
+   color: #3b2b3d;
+   text-align:center;
+   margin-top: 5px;
+   padding-top: 0;
+}
+
+/*Event description*/
+.upcoming-events .owl-carousel {
+  padding-right: 30px;
+  height: 220px;
+}
+
+#upcomings .upcoming {;
+  margin: 0 5px 0 0;
+}
+#upcomings .upcoming .event-pack {
+
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#upcomings .upcoming .event-pack img {
+  height:200px;
+}
+#upcomings .upcoming .content {
+  padding: 10px;
+}
+
+/*Latest Updates Header*/
+.update {
+  height: 30px;
+  background: #52c6c3;
+  margin-top: 100px;
+}
+.update h4 {
+   color: #fff;
+   text-align:center;
+   margin-top: 5px;
+   padding-top: 0;
+}
+
+/*Latest updates*/
+.latest-updates {
+  background: #e9fdfd;
+}
+.latest-updates h4,
+.latest-updates p,
+.latest-updates hr {
+  padding-right: 30px;
+}
+.latest-updates hr {
+  border: 1px solid #52c6c3;
+  margin-right: 40px;
+}
+.latest-updates .nav-tab h4 {
+  text-align: center;
+}
+
+/*weekly activities header*/
+.weekly {
+  height: 30px;
+  background: #c03640;
+  margin-top: 15px;
+}
+.weekly h4 {
+   color: #fff;
+   text-align:center;
+   margin-top: 5px;
+   padding-top: 0;
+}
+
+/*Event description*/
+.weekly-activities .owl-carousel {
+  padding-right: 30px;
+}
+#activities {
+  margin: 0;
+}
+#activities .activity {;
+  margin: 0 5px 0 0;
+}
+#activities .activity .content {
+  margin-bottom: 10px;
+  background: #eeeeee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#activities .activity .content {
+  padding: 10px;
+}
+#activities .activity .content h5,
+#activities .activity .content p {
+  text-align: center;
+}
+
+/* Subscription section */
+section .subscribe {
+  background: #eee;
+  padding: 30px;
+  margin-right: 20px;
+}
+section .subscribe h2 {
+  color: #1fa8e8;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER section */
+footer {
+  margin-top: 20px;
+  margin-left: -15px;
+}
+footer h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+footer hr {
+  background: #f0c419;
+  height: 4px;
+  margin: 0 0 10px;
+  padding: 0;
+  width: 60px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li a {
+  color: #333;
+  display: block;
+  padding: 5px 0;
+}
+footer ul li a:hover {
+  color: #111;
+  text-decoration: none;
+}
+footer .row:nth-child(2) {
+  padding: 15px 0;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-top: 1px solid #333;
+}
+footer .copyright p {
+  margin-left: -15px;
+}
+footer .social a {
+  color: #333;
+  margin-left: 10px;
+}
+footer .social a i.fa-facebook-square {
+  color: #3b5998;
+}
+footer .social a i.fa-instagram {
+  color: #517fa4;
+}
+footer .social a i.fa-twitter-square {
+  color: #55acee;
+}
+footer .social a i.fa-youtube-square {
+  color: #b31217;
+}
+
+/* MEDIA QUERIES*/
+/* Smart Phones*/
+@media (max-width: 480px) {
+  .top-header {
+    height: auto;
+  }
+  .top-header .social a i.fa-facebook-square,
+  .top-header .social a i.fa-twitter-square,
+  .top-header .social a i.fa-instagram,
+  .top-header .social a i.fa-youtube-square {
+    margin-top: -100px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+  }
+.navbar {
+  height: auto;
+}
+.cat-slider {
+  margin-right: -15px;
+}
+.cat-slider .carousel-caption h4,
+.cat-slider .carousel-caption h4.this-text {
+  font-size: 15px;
+  margin-top: -10px;
+}
+.cat-slider .carousel-caption h3 {
+  font-size: 15px;
+  margin-top: 0;
+}
+.cat-slider .carousel-caption h4.this-text {
+  margin-bottom: -5px;
+}
+
+
+.payments {
+  height: 170px;
+}
+
+.units-header {
+  margin-top: 10px;
+}
+section.units .mens-unit,
+section.units .womens-unit,
+section.units .youths-unit {
+  width: 95%;
+  }
+section.units .womens-unit {
+  position: relative;
+  bottom: -85px;
+}
+section.units .youths-unit {
+  position: relative;
+  top: 175px;
+}
+  /*Church units description*/
+  section.units-description .mens-description,
+  section.units-description .womens-description,
+  section.units-description .youths-description {
+    width: 95%;
+  }
+    section.units-description .mens-description {
+      position: relative;
+      top: -350px;
+    }
+    section.units-description .womens-description {
+      position: relative;
+      top: -180px;
+    }
+    section.units-description .youths-description {
+      position: relative;
+      top: -10px;
+    }
+
+    .events {
+      height: 50px;
+      margin-top: 0;
+    }
+
+    section.upcoming-events {
+      margin-bottom: 100px;
+    }
+
+    /*Event description*/
+    .upcoming-events .owl-carousel {
+      padding-right: 0;
+    }
+
+
+    .weekly-activities .owl-carousel {
+      padding-right: 0;
+    }
+
+
+    /* Subscription section */
+    section .subscribe {
+      margin-right: -10px;
+}
+}
+
+
+@media (max-width: 780px) {
+  .top-header {
+    height: auto;
+  }
+  .top-header .social a i.fa-facebook-square,
+  .top-header .social a i.fa-twitter-square,
+  .top-header .social a i.fa-instagram,
+  .top-header .social a i.fa-youtube-square {
+    margin-top: -100px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+  }
+.navbar {
+  height: auto;
+}
+.cat-slider {
+  margin-right: -15px;
+}
+
+
+.payments {
+  height: 170px;
+}
+
+section.units-description .mens-description,
+section.units-description .womens-description,
+section.units-description .youths-description {
+  height: 90px;
+}
+
+section.units {
+  margin-right: -20px;
+}
+section.units-description{
+  margin-right: -20px;
+}
+.update {
+  height: 30px;
+  background: #52c6c3;
+  margin-top: 85px;
+}
+
+    /*Event description*/
+    .upcoming-events .owl-carousel {
+      padding-right: 0;
+    }
+
+
+    .weekly-activities .owl-carousel {
+      padding-right: 0;
+    }
+
+    /* Subscription section */
+    section .subscribe {
+      margin-right: -10px;
+}
+}
